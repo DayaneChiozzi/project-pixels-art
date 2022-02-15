@@ -4,6 +4,7 @@
 body{
   background-color: aquamarine;
 }
+
 .color {
   color: white;
   display: inline-block;
@@ -25,6 +26,7 @@ div:nth-child(2) {
 div:nth-child(3) {
   background-color: #dc14dc;
 }
+
 div:nth-child(4) {
   background-color: hsl(189, 83%, 47%);
 }
