@@ -1,12 +1,8 @@
-
-
-
 body{
-  background-color: aquamarine;
+  background-color: aquamarine
 }
 
 .color {
-  color: white;
   display: inline-block;
   border-color: black;
   border-style: solid;
@@ -15,18 +11,25 @@ body{
   width: 50px;
 }
 
-div:nth-child(1) {
+ #pixel-board{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+ }
+
+.color:nth-child(1) {
     background-color: crimson;
 }
 
-div:nth-child(2) {
+.color:nth-child(2) {
   background-color: #dccf14;
 }
 
-div:nth-child(3) {
+.color:nth-child(3) {
   background-color: #dc14dc;
 }
 
-div:nth-child(4) {
+.color:nth-child(4) {
   background-color: hsl(189, 83%, 47%);
 }
+
