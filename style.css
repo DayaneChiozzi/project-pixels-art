@@ -1,6 +1,13 @@
 body{
   background-color: aquamarine
 }
+.pixel{
+  display: inline-block;
+  border :  1px solid black;
+  width : 40px;
+  height : 40px;
+  background-color: WHITE;
+}
 
 .color {
   display: inline-block;
@@ -10,14 +17,6 @@ body{
   height: 50px;
   width: 50px;
 }
-
-
- #pixel-board{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-  
- }
 
 .color:nth-child(1) {
     background-color: crimson;
