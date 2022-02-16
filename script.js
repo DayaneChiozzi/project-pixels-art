@@ -1,6 +1,3 @@
-const alteracaoDeCor = document.getElementById('color-palette').children[0];
-alteracaoDeCor.style.backgroundColor = 'black';
-alteracaoDeCor.className = 'selected';
 // console.log(alteracaoDeCor);
 
 const containerPixel = document.getElementById('pixel-board');
@@ -22,3 +19,6 @@ function createColuna(five) {
 }
 
 createColuna(5);
+
+const classeAdicional = document.querySelector('#color-palette').children[0];
+classeAdicional.className = 'selected color';
