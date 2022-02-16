@@ -1,5 +1,3 @@
-// console.log(alteracaoDeCor);
-
 const containerPixel = document.getElementById('pixel-board');
 containerPixel.style.width = '210px';
 containerPixel.style.height = '210px';
@@ -21,4 +19,26 @@ function createColuna(five) {
 createColuna(5);
 
 const classeAdicional = document.querySelector('#color-palette').children[0];
-classeAdicional.className = 'selected color';
+classeAdicional.className = 'color selected ';
+
+const paletaCores = document.querySelectorAll('.color');
+
+// função que seleciona a cor da paleta de cores.
+function selectedColor(event) {
+  for (let index = 0; index < paletaCores.length; index += 1) {
+    if (event.target.className === 'color') {
+      paletaCores[index].classList.add('selected');
+    }
+    if (event.target !== paletaCores[index]) {
+      paletaCores[index].classList.remove('selected');
+    }
+  }
+}
+// função que faz controle do evento
+function eventController(event) {
+  if (event.target.id === 'color_palette') {
+    selectedColor(event);
+  }
+}
+
+document.body.addEventListener('click', eventController);

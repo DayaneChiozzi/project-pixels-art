@@ -1,5 +1,5 @@
 body {
-  background-color: aquamarine
+  background-color: aquamarine;
 }
 
 .pixel {
@@ -19,7 +19,7 @@ body {
   width: 50px;
 }
 
-.color:nth-child(1) {
+.color:nth-child(1){
     background-color: black;
 }
 
