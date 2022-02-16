@@ -11,10 +11,12 @@ body{
   width: 50px;
 }
 
+
  #pixel-board{
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
+  
  }
 
 .color:nth-child(1) {
