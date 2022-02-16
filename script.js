@@ -1,5 +1,6 @@
 const alteracaoDeCor = document.getElementById('color-palette').children[0];
 alteracaoDeCor.style.backgroundColor = 'black';
+alteracaoDeCor.className = 'selected';
 // console.log(alteracaoDeCor);
 
 const containerPixel = document.getElementById('pixel-board');
