@@ -7,7 +7,7 @@ body {
   border : 1px solid black;
   width : 40px;
   height : 40px;
-  background-color: WHITE;
+  background-color: white;
 }
 
 .color {
@@ -19,19 +19,19 @@ body {
   width: 50px;
 }
 
-.color:nth-child(1){
-    background-color: black;
+.color:nth-child( 1 ) {
+  background-color: black;
 }
 
-.color:nth-child(2) {
+.color:nth-child( 2 ) {
   background-color: #dccf14;
 }
 
-.color:nth-child(3) {
+.color:nth-child( 3 ) {
   background-color: #dc14dc;
 }
 
-.color:nth-child(4) {
+.color:nth-child( 4 ) {
   background-color: hsl(189, 83%, 47%);
 }
 
